@@ -1,0 +1,30 @@
+{
+  "name": "rest-api-parkings",
+  "version": "0.0.1",
+  "description": "rest api demo para worldline",
+  "main": "parkings.js",
+  "scripts": {
+    "start": "node parkings.js",
+    "test": "mocha parkings.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardomejia/parkings"
+  },
+  "author": "Ricardo Mejia",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ricardomejia/parkings/issues"
+  },
+  "dependencies": {
+    "body-parser": "1.9.2",
+    "express": "4.10.1",
+    "mongoskin": "1.4.4",
+    "morgan": "1.5.0"
+  },
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "mocha": "2.0.1",
+    "superagent": "0.20.0"
+  }
+}
